@@ -1,0 +1,38 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: rgb(117, 177, 230);
+    display:flex;
+    justify-content:center;
+    padding: 40px 20px;
+    margin: 0;
+}
+.Cadastro {
+    background: rgb(117, 177, 230);
+    padding: 30px;
+    border-radius: 200px;
+    box-shadow:
+    width 100%;
+    max-width: 500px;
+}
+h1 {
+   color:rgb(0, 0, 0);
+   text-align: center;
+   margin-bottom: 5px;
+}
+header {
+    text-align: center;
+    color: rgb(0, 0, 0);
+    margin-bottom: 25px;
+    font-size: medium;
+    border-bottom: 2px;
+    padding-bottom: 10px;
+}
+.campo-grupo {
+    margin-bottom: 18px
+}
+.rótulo, .rótulo, .rótulo-principal {
+    display:block;
+    margin-bottom: 8px;
+    font-weight: 600;
+    color:rgb(0, 0, 0)
+}
