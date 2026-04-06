@@ -1,38 +1,69 @@
 body {
-    font-family: 'Times New Roman', Times, serif;
-    background-color: rgb(117, 177, 230);
-    display:flex;
-    justify-content:center;
-    padding: 40px 20px;
-    margin: 0;
+    background-color: rgb(174, 220, 255);
+    font-family: Arial;
+    margin-top: 50px;
 }
+
 .Cadastro {
-    background: rgb(117, 177, 230);
-    padding: 30px;
-    border-radius: 200px;
-    box-shadow:
-    width 100%;
-    max-width: 500px;
+    background-color: rgb(214, 232, 255);
+    width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid black;
+    border-radius: 10px;
 }
+
 h1 {
-   color:rgb(0, 0, 0);
-   text-align: center;
-   margin-bottom: 5px;
+    color: rgb(0, 0, 0);
+    text-align: center;
 }
+
 header {
     text-align: center;
-    color: rgb(0, 0, 0);
-    margin-bottom: 25px;
-    font-size: medium;
-    border-bottom: 2px;
-    padding-bottom: 10px;
+    border-bottom: 1px solid rgb(0, 0, 0);
+    margin-bottom: 20px;
+    padding-bottom: 5px;
 }
-.campo-grupo {
-    margin-bottom: 18px
+
+.campo {
+    margin-bottom: 15px;
 }
-.rótulo, .rótulo, .rótulo-principal {
-    display:block;
-    margin-bottom: 8px;
-    font-weight: 600;
-    color:rgb(0, 0, 0)
+
+.rotulo {
+    font-weight: 400;
+    display: block;
+}
+
+.entrada-texto {
+    width: 95%;
+    padding: 8px;
+    border: 1px solid #000;
+}
+
+.entrada-tel:focus {
+    background-color: rgb(227, 248, 251);
+    width: 95%;
+    padding: 8px;
+}
+
+.entrada-texto:focus {
+    background-color: rgb(227, 248, 251);
+}
+
+.campo1 {
+    background-color:rgb(214, 232, 255);
+    padding: 10px;
+}
+
+.opcao-item {
+    margin-top: 5px;
+}
+
+button.botão {
+    width: 100%;
+    padding: 10px;
+    background-color: blue;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
 }
